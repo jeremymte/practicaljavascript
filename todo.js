@@ -19,6 +19,6 @@ function changeTodo(position, newValue) {
 
 // It should have a fucntion to delete todos.
 function deleteTodo(position) {
-    todos.splice(postion, 1);
+    todos.splice(position, 1);
     displayTodos();
 }
